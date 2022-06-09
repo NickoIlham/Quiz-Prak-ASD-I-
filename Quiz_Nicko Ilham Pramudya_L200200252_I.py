@@ -35,7 +35,7 @@ Company:Open Financial Technologies
 Location: Bangalore
 Note: Fintech Experience would be a higher priority"""
 
-pola = r'[\w\d.-]+@[\w\d.]+\.\w+'
+pola = r'[\w.-]+@[\w.]+\.\w+'
 email = re.findall(pola,paragraf)
 print(email[0])
 
